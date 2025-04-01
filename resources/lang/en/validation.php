@@ -149,6 +149,23 @@ return [
             'required' => 'Email address is required.',
             'email' => 'Please provide a valid e-mail address.',
         ],
+        'first_name' => [
+            'required' => 'The first name field is required.',
+        ],
+        'last_name' => [
+            'required' => 'The last name field is required.',
+        ],
+        'register_email' => [
+            'required' => 'The register email field is required.',
+            'email' => 'Please provide a valid register email address.',
+            'unique' => 'This register email is already registered.',
+        ],
+        'register_password' => [
+            'required' => 'The password field is required.',
+            'min' => 'The password must be at least 8 characters.',
+            'regex' => 'The password must contain at least one letter and one number.',
+            'confirmed' => 'The password confirmation does not match.',
+        ],
     ],
 
 
