@@ -3,7 +3,7 @@
 @section('content')
 <div class="columns">
     <div class="column-main">
-        <div class="login-container">
+        <div class="login-container desktop-header">
             <h1 class="page-title title-font flex">
                 <div class="base w-full md:w-1/2 p-4 mr-4 pt-8 pb-0 pl-0" data-ui-id="page-title-wrapper">
                     Customer Login
@@ -29,11 +29,11 @@
                     <form id="login-form" method="POST" action="{{ route('login.post') }}" novalidate>
                         @csrf
                         <div class="field">
-                            <label class="label" for="login_email">
+                            <label class="label" for="email">
                                 <span>Email</span>
                             </label>
                             <div class="control">
-                                <input data-test="login-email" name="email" class="form-input" required value="{{ old('email') }}" autocomplete="email" id="login_email" type="email" title="Email">
+                                <input data-test="login-email" name="email" class="form-input" required value="{{ old('email') }}" autocomplete="email" id="email" type="email" title="Email">
                                 @error('email')
                                 <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                                 @enderror

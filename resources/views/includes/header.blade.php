@@ -15,8 +15,8 @@
                 <!--Main Navigation-->
                 <div class="z-20 order-2 sm:order-1 lg:order-2 navigation lg:hidden">
                     <!-- mobile -->
-                    <div class="bg-container-lighter">
-                        <div class="flex items-baseline justify-between menu-icon">
+                    <div class="bg-container-lighter mobile-none">
+                        <div class="flex items-baseline justify-between menu-icon mobile-none">
                             <div class="flex justify-end w-full">
                                 <a class="flex items-center justify-center cursor-pointer">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -79,7 +79,7 @@
                     <!--My Account Icon-->
                     <div class="relative inline-block ml-1 sm:ml-3">
                         <a data-test="header-icon" href="#" id="customer-menu"
-                            class="block header-icon" aria-label="My Account" aria-expanded="false">
+                            class="block header-icon mobile-none" aria-label="My Account" aria-expanded="false">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 class="md:h-6 md:w-6 header-icon" width="32" height="32" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -92,7 +92,7 @@
                     <a
                         data-test="header-icon"
                         id="menu-cart-icon"
-                        class="relative inline-block ml-1 no-underline sm:ml-3 header-icon"
+                        class="relative inline-block ml-1 no-underline sm:ml-3 header-icon mobile-none"
                         href="#">
                         <span class="sr-only label">Cart</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
