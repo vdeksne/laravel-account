@@ -1,4 +1,3 @@
-
 body {
     @apply bg-container;
 }
@@ -9,7 +8,7 @@ body {
 
 .columns {
     @apply grid grid-cols-1 gap-x-8 gap-y-4 container;
-    grid-template-rows: auto minmax(0,1fr);
+    grid-template-rows: auto minmax(0, 1fr);
 
     .main {
         @apply order-2;
@@ -21,9 +20,8 @@ body {
 }
 
 .actions-toolbar {
-    @apply mt-6 border-t border-container-darker pt-4 flex justify-between flex-row-reverse items-center
+    @apply mt-6 border-t border-container-darker pt-4 flex justify-between flex-row-reverse items-center;
 }
-
 
 #customer-login-container {
     @apply flex flex-col justify-between py-8;
@@ -33,3 +31,85 @@ body {
     }
 }
 
+.logo-main {
+    @apply flex items-center justify-center mb-4;
+    width: 7.75rem;
+    height: 2.5rem;
+
+    @screen sm {
+        @apply mb-0;
+    }
+}
+.header-icon {
+    color: #02170e;
+    stroke: #02170e;
+}
+.header-icon:hover {
+    color: #0f8352;
+    stroke: #0f8352;
+}
+.header-icon:active {
+    color: #0a5737;
+    stroke: #0a5737;
+}
+
+.navigation-main {
+    display: flex;
+    align-items: flex-start;
+    color: var(--Dark-green, #02170e);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+.navigation-main:hover {
+    color: #0f8352;
+    text-decoration: none !important;
+}
+.navigation-main:active {
+    color: #0a5737;
+    text-decoration: none !important;
+}
+.page-title {
+    color: var(--Dark-green, #02170e);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.25rem; /* 150% */
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+
+.text-footer,
+.navigation-main {
+    color: #02170e;
+}
+.text-footer:hover {
+    color: #0f8352;
+}
+.text-footer:active {
+    color: #0a5737;
+}
+
+.underline-txt {
+    text-decoration: underline;
+    color: #6d6d6d;
+    display: flex;
+    width: 11.75rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.underline-txt:hover {
+    color: #0f8352;
+}
+.underline-txt:active {
+    color: #0a5737;
+}
+
+.card {
+    padding: 2rem 2.5rem;
+}

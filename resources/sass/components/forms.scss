@@ -1,36 +1,36 @@
 form,
 fieldset {
     .field {
-        @apply mt-1
+        @apply mt-1;
     }
 
     /* Reserve space for single line form validation messages */
     .field.field-reserved {
-        @apply mb-7
+        @apply mb-7;
     }
 
     .field.field-reserved ul:last-of-type {
-        @apply -mb-6 pb-1 /* The sum has to match the value set above for field.field-reserved */
+        @apply -mb-6 pb-1 /* The sum has to match the value set above for field.field-reserved */;
     }
 
     .field.field-reserved ul {
-        @apply text-sm
+        @apply text-sm;
     }
 
     label {
-        @apply mb-2 block text-secondary-darker
+        @apply mb-2 block text-secondary-darker;
     }
 
     .field.choice {
-        @apply flex items-center
+        @apply flex items-center;
     }
 
     .field.choice input {
-        @apply mr-4
+        @apply mr-4;
     }
 
     .field.choice label {
-        @apply mb-0
+        @apply mb-0;
     }
 
     .field.field-error .messages {
@@ -39,16 +39,16 @@ fieldset {
     }
 
     legend {
-        @apply text-primary text-xl mb-3
+        @apply text-primary text-xl mb-3;
     }
 
     legend + br {
-        @apply hidden
+        @apply hidden;
     }
 }
 
 fieldset ~ fieldset {
-    @apply mt-8
+    @apply mt-8;
 }
 
 .form-input,
@@ -61,4 +61,8 @@ fieldset ~ fieldset {
     &:focus {
         @apply border-primary-lighter ring ring-primary ring-opacity-50;
     }
+}
+
+input {
+    width: 14rem;
 }

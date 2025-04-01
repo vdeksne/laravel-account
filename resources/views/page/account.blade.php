@@ -1,13 +1,22 @@
 @extends('layout.default')
 
 @section('content')
-    <div class="container flex flex-col md:flex-row flex-wrap my-6 font-bold lg:mt-8 text-3xl">
-        <h1 class="text-gray-900 page-title title-font">
-            <span class="base" data-ui-id="page-title-wrapper">
+<div class="columns">
+    <div class="column-main">
+    <div class="login-container" >
+        <h1 class="page-title title-font flex">
+            <div class="base w-full md:w-1/2 p-4 mr-4 pt-8 pb-0 pl-0" data-ui-id="page-title-wrapper">
                 Customer Login
-            </span>
+            </div>
+            <div class="base p-4 w-full md:w-1/2 my-8 md:my-0 pt-8 pb-0 pl-0" data-ui-id="page-title-wrapper">
+            Create New Customer Account
+            </div>
         </h1>
     </div>
+</div>
+    </div>
+
+
 
     <div class="columns">
         <div class="column main">
@@ -25,7 +34,7 @@
                                         Login
                                     </h2>
                                 </legend>
-                                <div class="text-secondary-darker mb-8">
+                                <div class="text-secondary-darker mb-8 w-81">
                                     If you have an account, sign in with your email address.
                                 </div>
                                 <div class="field">
@@ -59,7 +68,7 @@
                                     <button data-test="login-submit" type="submit" class="btn btn-primary disabled:opacity-75" name="send">
                                         <span>Sign In</span>
                                     </button>
-                                    <a class="underline text-secondary" href="#">
+                                    <a class="underline underline-txt" href="#">
                                         <span>Forgot Your Password?</span>
                                     </a>
                                 </div>
@@ -70,19 +79,19 @@
                 <div class="card w-full md:w-1/2 my-8 md:my-0">
                     <div>
                         <h2 class="text-xl font-medium title-font mb-3 text-primary" role="heading" aria-level="2">
-                            New Customers
+                        Personal Information
                         </h2>
                     </div>
                     <div>
-                        <p>
+                        <p class="text-primary" >
                             Creating an account has many benefits: check out faster, keep more than one address, track
                             orders and more.
                         </p>
                     </div>
                     <div class="actions-toolbar pt-6 pb-2 flex self-end">
-                        <a href="#" class="btn btn-primary">
+                        <button data-test="create-account" type="submit" class="btn btn-primary disabled:opacity-75" name="send">
                             <span>Create an Account</span>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
