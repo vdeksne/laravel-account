@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AccountController;
+use App\Http\Controllers\FormController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,3 +20,4 @@ Route::post('/login', [AccountController::class, 'login'])->name('login');
 Route::get('/logout', [AccountController::class, 'logout'])->name('logout');
 Route::post('/register', [AccountController::class, 'register'])->name('register');
 Route::get('/success', [AccountController::class, 'success'])->name('success');
+Route::post('/submit-form', [FormController::class, 'handleForm'])->name('form.submit');

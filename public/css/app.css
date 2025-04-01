@@ -967,6 +967,9 @@ select{
 .mt-4{
   margin-top: 1rem;
 }
+.mt-1{
+  margin-top: 0.25rem;
+}
 .block{
   display: block;
 }
@@ -1176,6 +1179,10 @@ select{
 .text-secondary-darker{
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity, 1));
+}
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
 .underline{
   text-decoration-line: underline;

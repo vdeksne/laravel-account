@@ -8,7 +8,6 @@ use Illuminate\Http\Response;
 
 class AccountController extends Controller
 {
-
     /**
      * Display my account page
      *

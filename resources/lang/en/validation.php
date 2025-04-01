@@ -145,7 +145,12 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'email' => [
+            'required' => 'Email address is required.',
+            'email' => 'Please provide a valid e-mail address.',
+        ],
     ],
+
 
     /*
     |--------------------------------------------------------------------------
