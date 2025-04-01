@@ -34,7 +34,7 @@ class AppFunctionalityTest extends DuskTestCase
      */
     private function getInputSelector(string $inputId, bool $isRegisterForm = true): string
     {
-        return sprintf('[data-test="%s-%s"]',$isRegisterForm ? 'register' : 'login', $inputId);
+        return sprintf('[data-test="%s-%s"]', $isRegisterForm ? 'register' : 'login', $inputId);
     }
 
     /**
@@ -262,7 +262,8 @@ class AppFunctionalityTest extends DuskTestCase
                 ->visit('/success')
                 ->assertRouteIs('success')
                 ->waitForTextIgnoringCase(
-                    sprintf('Hello, %s %s',
+                    sprintf(
+                        'Hello, %s %s',
                         self::USER_DATA['firstname'],
                         self::USER_DATA['lastname']
                     )
