@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests" tests="32" assertions="3" errors="29" warnings="0" failures="0" skipped="0" time="6.245139">
+    <testsuite name="Tests\Browser\AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" tests="13" assertions="0" errors="13" warnings="0" failures="0" skipped="0" time="2.558231">
+      <testcase name="testCanAccessIndex" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="59" assertions="0" time="0.316417">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testCanAccessIndex
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:61</error>
+      </testcase>
+      <testcase name="testLoginEmailValidation" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="73" assertions="0" time="0.244299">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testLoginEmailValidation
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:75</error>
+      </testcase>
+      <testcase name="testRegisterEmailValidation" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="90" assertions="0" time="0.238617">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testRegisterEmailValidation
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:92</error>
+      </testcase>
+      <testcase name="testRegisterPasswordValidation" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="107" assertions="0" time="0.245194">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testRegisterPasswordValidation
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:109</error>
+      </testcase>
+      <testcase name="testLoginErrorMessage" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="124" assertions="0" time="0.247278">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testLoginErrorMessage
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:126</error>
+      </testcase>
+      <testcase name="testRegisterSuccessMessage" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="142" assertions="0" time="0.238493">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testRegisterSuccessMessage
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:144</error>
+      </testcase>
+      <testcase name="testSuccessRouteGuard" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="163" assertions="0" time="0.242118">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testSuccessRouteGuard
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:165</error>
+      </testcase>
+      <testcase name="testDoesLoginFail" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="177" assertions="0" time="0.238382">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testDoesLoginFail
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:179</error>
+      </testcase>
+      <testcase name="testDoesRegisterFail" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="195" assertions="0" time="0.241725">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testDoesRegisterFail
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:197</error>
+      </testcase>
+      <testcase name="testDoesRegisterSucceed" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="216" assertions="0" time="0.248857">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppFunctionalityTest::testDoesRegisterSucceed
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:218</error>
+      </testcase>
+      <testcase name="testDoesLoginSucceed" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="238" assertions="0" time="0.029016">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testDoesLoginSucceed
+Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 19 NOT NULL constraint failed: users.first_name (SQL: insert into "users" ("email", "password", "subscribed", "updated_at", "created_at") values (testEmail@testing.com, $2y$04$/644kjhEHTslGE6VoXJL.OZiF7iFuDt0bdcUvoplx67ASiGHp/hwO, 1, 2025-04-02 11:07:23, 2025-04-02 11:07:23))
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:672
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:490
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:454
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php:32
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:3028
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:1657
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1188
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1153
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:994
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:896
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:895
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:23
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2132
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2144
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:47
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:240</error>
+      </testcase>
+      <testcase name="testSuccessPageContent" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="257" assertions="0" time="0.013844">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testSuccessPageContent
+Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 19 NOT NULL constraint failed: users.first_name (SQL: insert into "users" ("email", "password", "subscribed", "updated_at", "created_at") values (testEmail@testing.com, $2y$04$96n7LxLxyI.uLys1UgDLTOx17MzSOg1NRHSi9YPV56Jo1Y0fFtnc6, 1, 2025-04-02 11:07:23, 2025-04-02 11:07:23))
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:672
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:490
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:454
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php:32
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:3028
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:1657
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1188
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1153
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:994
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:896
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:895
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:23
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2132
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2144
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:47
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:259</error>
+      </testcase>
+      <testcase name="testLogout" class="Tests\Browser\AppFunctionalityTest" classname="Tests.Browser.AppFunctionalityTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php" line="279" assertions="0" time="0.013990">
+        <error type="Illuminate\Database\QueryException">Tests\Browser\AppFunctionalityTest::testLogout
+Illuminate\Database\QueryException: SQLSTATE[23000]: Integrity constraint violation: 19 NOT NULL constraint failed: users.first_name (SQL: insert into "users" ("email", "password", "subscribed", "updated_at", "created_at") values (testEmail@testing.com, $2y$04$0z38wu3XbesH57YfTCn2nujSGRG9FCgXyyubaFqlDzdER0juIPjlK, 1, 2025-04-02 11:07:23, 2025-04-02 11:07:23))
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:712
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:672
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:490
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Connection.php:454
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php:32
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:3028
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:1657
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1188
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:1153
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:994
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:896
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:263
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:895
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:23
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2132
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2144
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:47
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppFunctionalityTest.php:281</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Tests\Browser\AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" tests="16" assertions="0" errors="16" warnings="0" failures="0" skipped="0" time="3.682921">
+      <testcase name="testIsCorrectFontFamily" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="109" assertions="0" time="0.238810">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsCorrectFontFamily
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:111</error>
+      </testcase>
+      <testcase name="testIsButtonCorrectColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="126" assertions="0" time="0.223612">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsButtonCorrectColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:128</error>
+      </testcase>
+      <testcase name="testIsHeaderIconsCorrectColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="146" assertions="0" time="0.233180">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderIconsCorrectColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:148</error>
+      </testcase>
+      <testcase name="testIsHeaderLinksCorrectColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="166" assertions="0" time="0.228316">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderLinksCorrectColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:168</error>
+      </testcase>
+      <testcase name="testIsHeaderLinksWithoutUnderline" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="186" assertions="0" time="0.231862">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderLinksWithoutUnderline
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:188</error>
+      </testcase>
+      <testcase name="testIsHeaderLinksCorrectWeight" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="206" assertions="0" time="0.222300">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderLinksCorrectWeight
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:208</error>
+      </testcase>
+      <testcase name="testIsHeaderLinksUppercase" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="225" assertions="0" time="0.224384">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testIsHeaderLinksUppercase
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:227</error>
+      </testcase>
+      <testcase name="testDoesHeaderBarHaveShadow" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="242" assertions="0" time="0.229750">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testDoesHeaderBarHaveShadow
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:244</error>
+      </testcase>
+      <testcase name="testForgotPasswordColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="260" assertions="0" time="0.232661">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testForgotPasswordColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:262</error>
+      </testcase>
+      <testcase name="testForgotPasswordUnderline" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="279" assertions="0" time="0.228382">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testForgotPasswordUnderline
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:281</error>
+      </testcase>
+      <testcase name="testFooterLinksColor" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="297" assertions="0" time="0.226560">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testFooterLinksColor
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:299</error>
+      </testcase>
+      <testcase name="testFooterLinksUnderline" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="317" assertions="0" time="0.233177">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testFooterLinksUnderline
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:319</error>
+      </testcase>
+      <testcase name="testCheckboxStyling" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="337" assertions="0" time="0.232066">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testCheckboxStyling
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:339</error>
+      </testcase>
+      <testcase name="testRegisterSectionTitle" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="371" assertions="0" time="0.230588">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testRegisterSectionTitle
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:373</error>
+      </testcase>
+      <testcase name="testRegisterFormTitles" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="389" assertions="0" time="0.232642">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testRegisterFormTitles
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:391</error>
+      </testcase>
+      <testcase name="testFooterCopyright" class="Tests\Browser\AppStylingTest" classname="Tests.Browser.AppStylingTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php" line="414" assertions="0" time="0.234631">
+        <error type="Facebook\WebDriver\Exception\Internal\WebDriverCurlException">Tests\Browser\AppStylingTest::testFooterCopyright
+Facebook\WebDriver\Exception\Internal\WebDriverCurlException: Curl error thrown for http POST to /session with params: {"capabilities":{"firstMatch":[{"browserName":"chrome","goog:chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}]},"desiredCapabilities":{"browserName":"chrome","platform":"ANY","chromeOptions":{"args":["--window-size=1920,1080","--disable-gpu","--headless"]}}}
+
+Failed to connect to localhost port 9515 after 0 ms: Could not connect to server
+
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Exception/Internal/WebDriverCurlException.php:20
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/HttpCommandExecutor.php:328
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/php-webdriver/webdriver/lib/Remote/RemoteWebDriver.php:129
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/DuskTestCase.php:43
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:219
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/framework/src/Illuminate/Support/helpers.php:234
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:218
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:98
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/vendor/laravel/dusk/src/Concerns/ProvidesBrowser.php:66
+/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Browser/AppStylingTest.php:416</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="ExampleTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.002820">
+      <testcase name="testBasic" class="ExampleTest" classname="ExampleTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/ExampleTest.php" line="6" assertions="1" time="0.002820"/>
+    </testsuite>
+    <testsuite name="HelloWorldTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/HelloWorldTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000975">
+      <testcase name="testHelloWorld" class="HelloWorldTest" classname="HelloWorldTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/HelloWorldTest.php" line="6" assertions="1" time="0.000975"/>
+    </testsuite>
+    <testsuite name="Tests\Unit\ExampleTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Unit/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000192">
+      <testcase name="test_example" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" file="/Users/viktorijadeksne/Documents/Viktorija_2025/April/Magebit/PHP_V1/3c3f1673-84b8-4623-9fdd-4db2a8b25483/tests/Unit/ExampleTest.php" line="10" assertions="1" time="0.000192"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

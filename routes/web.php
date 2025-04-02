@@ -34,8 +34,14 @@ Route::post('/register', [AccountController::class, 'registerPost'])->name('regi
 
 Route::post('/submit-form', [AccountController::class, 'handleForm'])->name('form.submit');
 
-Route::get('/logout', [AccountController::class, 'logout'])->name('logout');
-Route::post('/logout', [AccountController::class, 'logout'])->name('logout');
+// Route::get('/logout', [AccountController::class, 'logout'])->name('logout');
+
+Route::post('/logout', function () {
+    Auth::logout();
+    return redirect('/'); // Redirect to the homepage
+})->name('logout');
+
+Route::get('/success', [AccountController::class, 'success'])->name('success')->middleware('auth');
 
 Route::get('/test-database', function () {
     return \App\Models\User::all();

@@ -1698,7 +1698,7 @@ body{
   row-gap: 1rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 777px) {
   .columns {
     width: 100%;
   }
@@ -1843,7 +1843,7 @@ body{
   padding: 2rem 2.5rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 777px) {
   .card {
     padding: 2rem 3rem;
   }

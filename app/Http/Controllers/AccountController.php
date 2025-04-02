@@ -32,22 +32,18 @@ class AccountController extends Controller
         return redirect('/success');
     }
 
-    function loginPost(Request $request)
+    public function loginPost(Request $request)
     {
-        // implement login functionality
-        // dd($request->all());
-        // return redirect('/success');
-
-        $request->validate([
-            'email' => 'required',
-            'password' => 'required',
-        ]);
         $credentials = $request->only('email', 'password');
-        if (Auth::attempt($credentials)) {
-            return redirect()->intended('/success');
-        }
-    }
 
+        if (Auth::attempt($credentials)) {
+            // Login successful, redirect to the success page
+            return redirect()->route('success');
+        }
+
+        // Login failed, redirect to the homepage with an error message
+        return redirect()->route('index')->with('error', 'Invalid credentials. Please try again.');
+    }
 
     /**
      * Logout user from the system
@@ -111,14 +107,11 @@ class AccountController extends Controller
      */
     public function success()
     {
-        // implement check if the user is authorized
-        if (true) {
-            $user = auth()->user();
-            if ($user) {
-                return view('page.success')->with(['firstname' => $user->first_name, 'lastname' => $user->last_name]);
-            }
-        }
+        $user = auth()->user(); // Get the authenticated user
 
-        return redirect('/');
+        return view('page.success', [
+            'first_name' => $user->first_name ?? '',
+            'last_name' => $user->last_name ?? ''
+        ]);
     }
 }
