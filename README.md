@@ -4,7 +4,7 @@
 
 This Laravel-based blog application is fully functional, responsive, and offers register, login and logout features. The application is designed to be user-friendly and visually appealing, with a focus on providing a seamless experience for both users and administrators.
 
-![Blog Application Screenshot](public/images/image.png){width=400px}
+![Blog Application Screenshot](public/images/image.png)
 
 ## Project Specifications
 
